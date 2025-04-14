@@ -2,7 +2,7 @@ package buoi3;
 
 public class main {
     public static void main(String[] args) {
-        bai1 queue = new bai1(6); // tạo hàng đợi có 5 ô
+        bai1 queue = new bai1(6);
 
         System.out.println("== Thêm phần tử ==");
         queue.enQueue("A");
