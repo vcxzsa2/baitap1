@@ -17,7 +17,7 @@ public class bai1 {
         // Thêm phần tử x vào cuối hàng đợi
         public void enQueue(String x) {
             if (size == capacity) {
-                System.out.println("Full");
+                System.out.println("Hàng đợi đầy");
             } else {
                 rear = (rear + 1) % capacity; // Đảm bảo quay vòng khi tới cuối mảng
                 a[rear] = x;
