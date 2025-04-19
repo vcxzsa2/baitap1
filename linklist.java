@@ -25,6 +25,10 @@ class linklist{
         }
         temp.next = newNode;
     }
+    /* 
+     Insert node at the end of the linklist. 
+     Time Complexity: O(n)
+    */
     public void delete() {
         if (head == null) return;
         if (head.next == null) {
@@ -39,6 +43,10 @@ class linklist{
             temp.previous = null;
         }
     }
+     /*
+     Delete node from the end of the linklist.
+     Time Complexity: O(n)
+     */
     public void print(){
         node temp = head;
         while (temp != null){
@@ -47,6 +55,10 @@ class linklist{
         }
 
     }
+    /*
+    Print all values in the linklist.
+    Time Complexity: O(n)
+    */
 
     public boolean search(int x) {
         node temp = head;
@@ -57,7 +69,12 @@ class linklist{
         }
         return false;
     }
+    /*
+     Search a value in the linklist.
+     Time Complexity: O(n)
+    */
 }
+
 
 class Main {
     public static void main(String[] args) {
